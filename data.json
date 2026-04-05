@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Vibe Coding 專案追蹤站",
+    "type": "WEB",
+    "description": "用 AI vibe coding 做的專案追蹤網站，就是你現在看到的這個",
+    "url": "https://mtsung.github.io/vibe_coding_tracker/",
+    "checkUrl": "",
+    "source": "GitHub",
+    "sourceUrl": "https://github.com/MTsung/vibe_coding_tracker",
+    "date": "2026-04-05",
+    "deadDate": "",
+    "tags": ["kiro", "github-pages", "tracker"]
+  },
+  {
+    "name": "CardDex 卡牌交易平台",
+    "type": "WEB",
+    "description": "寶可夢卡牌交易平台，支援綠界金流（信用卡、超商代碼、ATM），平台保障交易安全",
+    "url": "https://carddex.app/",
+    "checkUrl": "",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@haru3613/post/DV8xg8-jz4z",
+    "date": "2026-03-16",
+    "deadDate": "",
+    "tags": ["carddex", "寶可夢", "金流", "綠界"]
+  }
+]
