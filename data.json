@@ -21,6 +21,54 @@
     "sourceUrl": "https://www.threads.com/@haru3613/post/DV8xg8-jz4z",
     "date": "2026-03-16",
     "deadDate": "",
-    "tags": ["寶可夢", "金流", "綠界"]
+    "tags": ["寶可夢", "金流", "綠界", "@haru3613"]
+  },
+  {
+    "name": "美業工作管理 App",
+    "type": "WEB",
+    "description": "全程用 AI 開發的美業管理工具，含行事曆、結帳、業績紀錄，部署在 Bolt",
+    "url": "https://260330-app-e9e4.bolt.host",
+    "checkUrl": "https://260330-app-e9e4.bolt.host",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@janlee0701/post/DWuI8U6EvhY",
+    "date": "2026-04-05",
+    "deadDate": "",
+    "tags": ["美業", "@janlee0701"]
+  },
+  {
+    "name": "Pikki 美髮預約平台",
+    "type": "WEB",
+    "description": "美髮預約媒合平台，送出地點、項目、預算，設計師主動報價，不用再一間一間私訊問",
+    "url": "https://pikki.tw",
+    "checkUrl": "https://pikki.tw",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@alex.pikkifounder/post/DVaH-c3kWqd",
+    "date": "2026-03-03",
+    "deadDate": "",
+    "tags": ["美髮", "預約", "媒合", "@alex.pikkifounder"]
+  },
+  {
+    "name": "Wishbone 代購平台",
+    "type": "WEB",
+    "description": "C2C 雙向代購平台，像行李箱的 Airbnb，資訊透明、售價公開，1 鍵找到最便宜最獨特的商品，不用飛出國就能買",
+    "url": "https://wishbone2026mvp.base44.app/",
+    "checkUrl": "https://wishbone2026mvp.base44.app/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@haagenpazs_.25/post/DWjXI-YE9zF",
+    "date": "2026-03-31",
+    "deadDate": "",
+    "tags": ["代購", "C2C", "@haagenpazs_.25"]
+  },
+  {
+    "name": "GoSavor 旅遊輔助點餐系統",
+    "type": "WEB",
+    "description": "AI 菜單翻譯點餐系統，拍菜單自動翻譯並標註編號，支援 AR 模式、對話翻譯與店員溝通，還能收據翻譯記帳、分帳",
+    "url": "https://gosavor.zeabur.app/",
+    "checkUrl": "https://gosavor.zeabur.app/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@chengwei0911/post/DWtWOdYktBC",
+    "date": "2026-04-04",
+    "deadDate": "",
+    "tags": ["旅遊", "翻譯", "點餐", "AI", "AR", "@chengwei0911"]
   }
 ]
