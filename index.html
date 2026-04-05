@@ -98,7 +98,7 @@
 
     .tag { display: inline-block; background: #339; color: #0ff; font-size: 10px; padding: 1px 5px; margin: 1px; border: 1px solid #66c; }
     .source-text { color: #f90; }
-    .date-text { color: #aaa; font-family: "Courier New", monospace; }
+    .date-text { color: #aaa; font-family: "Courier New", monospace; white-space: nowrap; }
     .empty-msg { text-align: center; padding: 30px; color: #f00; font-size: 16px; }
 
     .blink { animation: blink 1s step-end infinite; }
@@ -209,7 +209,6 @@
 
     <div class="under-construction">
       <span class="cg">🏗️</span> <span class="blink">★ 持續更新中 ★</span> <span class="cg">🏗️</span>
-      <br>最後更新：<span class="date-text" id="lastUpdate">--</span>
     </div>
 
   </div>
@@ -226,7 +225,7 @@
     function renderTable(data) {
       var c = document.getElementById('tableContainer');
       if (!data.length) { c.innerHTML = '<div class="empty-msg">☹ 找不到符合條件的專案... 請換個關鍵字試試 ☹</div>'; return; }
-      var h = '<table class="project-table"><thead><tr><th>專案名稱</th><th>類型</th><th>說明</th><th>標籤</th><th>來源</th><th>日期</th><th>💀 狀態</th><th>⏳ 壽命</th></tr></thead><tbody>';
+      var h = '<table class="project-table"><thead><tr><th>專案名稱</th><th>類型</th><th>說明</th><th>標籤</th><th>來源</th><th>日期</th><th>狀態</th><th>⏳ 壽命</th></tr></thead><tbody>';
       data.forEach(function(p, i) {
         var tags = (p.tags||[]).map(function(t){return '<span class="tag">#'+t+'</span>';}).join(' ');
         var srcHtml = p.sourceUrl ? '<a href="'+p.sourceUrl+'" target="_blank" rel="noopener noreferrer">'+p.source+'</a>' : p.source;
@@ -293,8 +292,6 @@
       document.getElementById('totalCount').textContent = projects.length;
       document.getElementById('aliveCount').textContent = projects.length - dead;
       document.getElementById('deadCount').textContent = dead;
-      var dates = projects.map(function(p){return p.date;}).sort();
-      if (dates.length) document.getElementById('lastUpdate').textContent = dates[dates.length-1];
     }
 
     document.getElementById('search').addEventListener('input', update);
