@@ -303,7 +303,7 @@
     document.getElementById('sortBy').addEventListener('change', update);
     document.getElementById('statusFilter').addEventListener('change', update);
 
-    fetch('data.json').then(function(r){return r.json();}).then(function(data){
+    fetch('data.json?t=' + Date.now()).then(function(r){return r.json();}).then(function(data){
       projects = data; populateFilters(); update();
     }).catch(function(){
       document.getElementById('tableContainer').innerHTML = '<div class="empty-msg">☹ 無法載入 data.json ☹</div>';
