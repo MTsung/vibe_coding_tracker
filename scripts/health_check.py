@@ -54,21 +54,17 @@ def main():
     changed = False
 
     for p in projects:
-        # Skip already dead projects
-        if p.get("deadDate"):
-            continue
-
         proj_type = p.get("type", "").upper()
-        alive = True
+        is_dead = bool(p.get("deadDate"))
+
+        if proj_type in ("LINE BOT",):
+            # LINE BOT hard to auto-check, skip
+            continue
 
         if proj_type == "APP":
             check_url = p.get("checkUrl") or p.get("url", "")
             alive = check_app(check_url)
-        elif proj_type in ("LINE BOT",):
-            # LINE BOT hard to auto-check, skip
-            continue
         else:
-            # WEB, API, and others: HTTP check
             check_url = p.get("checkUrl") or p.get("url", "")
             alive = check_web(check_url)
 
@@ -81,12 +77,18 @@ def main():
             else:
                 alive = check_web(check_url)
 
-        if not alive:
+        if not alive and not is_dead:
             p["deadDate"] = TODAY
             print(f"💀 {p['name']} - marked dead ({check_url})")
             changed = True
-        else:
+        elif alive and is_dead:
+            print(f"🔮 {p['name']} - 復活了！清除 deadDate")
+            p["deadDate"] = ""
+            changed = True
+        elif alive:
             print(f"✅ {p['name']} - alive")
+        else:
+            print(f"⚰️  {p['name']} - still dead")
 
     if changed:
         with open(DATA_FILE, "w", encoding="utf-8") as f:

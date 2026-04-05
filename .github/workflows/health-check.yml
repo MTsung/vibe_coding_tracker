@@ -1,0 +1,37 @@
+name: Daily Health Check
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 每天 UTC 02:00 (台灣 10:00)
+  workflow_dispatch:       # 也可以手動觸發
+
+concurrency:
+  group: health-check
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run health check
+        run: python scripts/health_check.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git diff --staged --quiet || git commit -m "🏥 auto health check: $(date -u +%Y-%m-%d)"
+          git push
