@@ -9,7 +9,10 @@
     "sourceUrl": "https://github.com/MTsung/vibe_coding_tracker",
     "date": "2026-04-05",
     "deadDate": "",
-    "tags": ["github-pages", "tracker"]
+    "tags": [
+      "github-pages",
+      "tracker"
+    ]
   },
   {
     "name": "CardDex 卡牌交易平台",
@@ -21,7 +24,12 @@
     "sourceUrl": "https://www.threads.com/@haru3613/post/DV8xg8-jz4z",
     "date": "2026-03-16",
     "deadDate": "",
-    "tags": ["寶可夢", "金流", "綠界", "@haru3613"]
+    "tags": [
+      "寶可夢",
+      "金流",
+      "綠界",
+      "@haru3613"
+    ]
   },
   {
     "name": "美業工作管理 App",
@@ -33,7 +41,10 @@
     "sourceUrl": "https://www.threads.com/@janlee0701/post/DWuI8U6EvhY",
     "date": "2026-04-05",
     "deadDate": "",
-    "tags": ["美業", "@janlee0701"]
+    "tags": [
+      "美業",
+      "@janlee0701"
+    ]
   },
   {
     "name": "Pikki 美髮預約平台",
@@ -45,7 +56,12 @@
     "sourceUrl": "https://www.threads.com/@alex.pikkifounder/post/DVaH-c3kWqd",
     "date": "2026-03-03",
     "deadDate": "",
-    "tags": ["美髮", "預約", "媒合", "@alex.pikkifounder"]
+    "tags": [
+      "美髮",
+      "預約",
+      "媒合",
+      "@alex.pikkifounder"
+    ]
   },
   {
     "name": "Wishbone 代購平台",
@@ -57,7 +73,11 @@
     "sourceUrl": "https://www.threads.com/@haagenpazs_.25/post/DWjXI-YE9zF",
     "date": "2026-03-31",
     "deadDate": "",
-    "tags": ["代購", "C2C", "@haagenpazs_.25"]
+    "tags": [
+      "代購",
+      "C2C",
+      "@haagenpazs_.25"
+    ]
   },
   {
     "name": "GoSavor 旅遊輔助點餐系統",
@@ -69,7 +89,14 @@
     "sourceUrl": "https://www.threads.com/@chengwei0911/post/DWtWOdYktBC",
     "date": "2026-04-04",
     "deadDate": "",
-    "tags": ["旅遊", "翻譯", "點餐", "AI", "AR", "@chengwei0911"]
+    "tags": [
+      "旅遊",
+      "翻譯",
+      "點餐",
+      "AI",
+      "AR",
+      "@chengwei0911"
+    ]
   },
   {
     "name": "摩丘放鬆 MuChills",
@@ -80,8 +107,14 @@
     "source": "Threads",
     "sourceUrl": "https://www.threads.com/@lawchainhot/post/DWtesBfCOZU",
     "date": "2026-02-15",
-    "deadDate": "",
-    "tags": ["健康", "伸展", "身體日誌", "iOS", "@lawchainhot"]
+    "deadDate": "2026-04-06",
+    "tags": [
+      "健康",
+      "伸展",
+      "身體日誌",
+      "iOS",
+      "@lawchainhot"
+    ]
   },
   {
     "name": "拾光 Renmory 婚禮互動遊戲",
@@ -93,7 +126,11 @@
     "sourceUrl": "https://www.threads.com/@thebensoncreature/post/DV7dux9ExLT",
     "date": "2026-03-16",
     "deadDate": "",
-    "tags": ["婚禮", "互動遊戲", "@thebensoncreature"]
+    "tags": [
+      "婚禮",
+      "互動遊戲",
+      "@thebensoncreature"
+    ]
   },
   {
     "name": "YouTool360",
@@ -105,7 +142,12 @@
     "sourceUrl": "https://www.threads.com/@soup_rice_tommy_zh.hk/post/DReYZltksxo",
     "date": "2026-01-18",
     "deadDate": "",
-    "tags": ["360影片", "AI", "影片製作", "@soup_rice_tommy_zh.hk"]
+    "tags": [
+      "360影片",
+      "AI",
+      "影片製作",
+      "@soup_rice_tommy_zh.hk"
+    ]
   },
   {
     "name": "TL;DReview",
@@ -116,8 +158,14 @@
     "source": "Threads",
     "sourceUrl": "https://www.threads.com/@tldreview_bot/post/DRV3_5dD7S2",
     "date": "2025-11-22",
-    "deadDate": "",
-    "tags": ["評論摘要", "Google地圖", "AI", "旅遊", "@tldreview_bot"]
+    "deadDate": "2026-04-06",
+    "tags": [
+      "評論摘要",
+      "Google地圖",
+      "AI",
+      "旅遊",
+      "@tldreview_bot"
+    ]
   },
   {
     "name": "Last Straw 離職念頭紀錄器",
@@ -129,7 +177,13 @@
     "sourceUrl": "https://www.threads.com/@_kiwi_go_/post/DR2Fqy5j0RR",
     "date": "2025-12-04",
     "deadDate": "",
-    "tags": ["職場", "厭世", "紀錄", "AI", "@_kiwi_go_"]
+    "tags": [
+      "職場",
+      "厭世",
+      "紀錄",
+      "AI",
+      "@_kiwi_go_"
+    ]
   },
   {
     "name": "SoloBeauté 美業共享空間",
@@ -141,7 +195,13 @@
     "sourceUrl": "https://www.threads.com/@jason850903/post/DWYwGMsEe2t",
     "date": "2026-03-27",
     "deadDate": "",
-    "tags": ["美業", "共享空間", "預約", "iOS", "@jason850903"]
+    "tags": [
+      "美業",
+      "共享空間",
+      "預約",
+      "iOS",
+      "@jason850903"
+    ]
   },
   {
     "name": "錢去哪了",
@@ -152,8 +212,13 @@
     "source": "Threads",
     "sourceUrl": "https://www.threads.com/@wheresmymoney.tw/post/DWI-9mPCWrK",
     "date": "2026-03-21",
-    "deadDate": "",
-    "tags": ["記帳", "理財", "iOS", "@wheresmymoney.tw"]
+    "deadDate": "2026-04-06",
+    "tags": [
+      "記帳",
+      "理財",
+      "iOS",
+      "@wheresmymoney.tw"
+    ]
   },
   {
     "name": "靜月之光 AI 命理分析",
@@ -165,7 +230,13 @@
     "sourceUrl": "https://www.threads.com/@oner.kk/post/DWwRJx9k5ut",
     "date": "2025-07-01",
     "deadDate": "",
-    "tags": ["命理", "算命", "AI", "塔羅", "@oner.kk"]
+    "tags": [
+      "命理",
+      "算命",
+      "AI",
+      "塔羅",
+      "@oner.kk"
+    ]
   },
   {
     "name": "曼谷深度旅遊地圖 2026",
@@ -177,7 +248,12 @@
     "sourceUrl": "https://www.threads.com/@blueescapee/post/DWwc_yeiYyr",
     "date": "2026-04-02",
     "deadDate": "",
-    "tags": ["旅遊", "曼谷", "地圖", "@blueescapee"]
+    "tags": [
+      "旅遊",
+      "曼谷",
+      "地圖",
+      "@blueescapee"
+    ]
   },
   {
     "name": "飛去吧 FlyGoAsia",
@@ -189,7 +265,13 @@
     "sourceUrl": "https://www.threads.com/@blueescapee/post/DWjJ1T8CX4f",
     "date": "2026-03-29",
     "deadDate": "",
-    "tags": ["旅遊", "機票", "簽證", "eSIM", "@blueescapee"]
+    "tags": [
+      "旅遊",
+      "機票",
+      "簽證",
+      "eSIM",
+      "@blueescapee"
+    ]
   },
   {
     "name": "課務通",
@@ -200,8 +282,14 @@
     "source": "Threads",
     "sourceUrl": "https://www.threads.com/@charles0324/post/DWwReo_E8uc",
     "date": "2026-04-05",
-    "deadDate": "",
-    "tags": ["校園", "課表", "大學生", "iOS", "@charles0324"]
+    "deadDate": "2026-04-06",
+    "tags": [
+      "校園",
+      "課表",
+      "大學生",
+      "iOS",
+      "@charles0324"
+    ]
   },
   {
     "name": "Iron Split 分帳工具",
@@ -212,8 +300,13 @@
     "source": "Threads",
     "sourceUrl": "https://www.threads.com/@cathitomi/post/DWpg2ldD3Hy",
     "date": "2026-04-03",
-    "deadDate": "",
-    "tags": ["分帳", "記帳", "旅行", "@cathitomi"]
+    "deadDate": "2026-04-06",
+    "tags": [
+      "分帳",
+      "記帳",
+      "旅行",
+      "@cathitomi"
+    ]
   },
   {
     "name": "NaLi Match 美甲美睫媒合平台",
@@ -225,6 +318,11 @@
     "sourceUrl": "https://www.threads.com/@kanisleo328/post/DVitRc6Ey4D",
     "date": "2026-03-06",
     "deadDate": "",
-    "tags": ["美甲", "美睫", "媒合", "@kanisleo328"]
+    "tags": [
+      "美甲",
+      "美睫",
+      "媒合",
+      "@kanisleo328"
+    ]
   }
 ]
