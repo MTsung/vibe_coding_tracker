@@ -324,5 +324,29 @@
       "媒合",
       "@kanisleo328"
     ]
+  },
+  {
+    "name": "恆遠報價單 CRM 系統",
+    "type": "WEB",
+    "description": "線上報價單 CRM 系統，自動化報價、追單提醒、一鍵轉請款、PDF 匯出，報價製作從 45 分鐘縮短到 3 分鐘",
+    "url": "https://quote.foreverwebs.com/auto-login",
+    "checkUrl": "https://quote.foreverwebs.com",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@ceo.working/post/DWwRIvyCVmc",
+    "date": "2026-04-06",
+    "deadDate": "",
+    "tags": ["報價", "CRM", "自動化", "@ceo.working"]
+  },
+  {
+    "name": "TutorPage 教師品牌頁",
+    "type": "WEB",
+    "description": "獨立教師個人品牌展示頁與輕量排課工具，AI 秒建頁面、整合 Google Calendar、學生評價系統，不抽成不綁約",
+    "url": "https://tutorpage.page/",
+    "checkUrl": "https://tutorpage.page/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@jenson.stackwork/post/DWd_bgbEWeV",
+    "date": "2026-03-29",
+    "deadDate": "",
+    "tags": ["教學", "品牌", "排課", "AI", "@jenson.stackwork"]
   }
 ]
