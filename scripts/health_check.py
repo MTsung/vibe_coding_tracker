@@ -8,8 +8,10 @@ TODAY = date.today().isoformat()
 
 # App Store / Google Play 回應中，下架的特徵
 APP_STORE_GONE_HINTS = [
-    "not available", "isn\u2019t available", "not found",
-    "we can\u2019t find", "404", "no longer available"
+    "this app is currently not available",
+    "isn\u2019t available in your country",
+    "we can\u2019t find the app",
+    "no longer available",
 ]
 
 HEADERS = {
