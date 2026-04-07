@@ -7,13 +7,6 @@ TIMEOUT = 15
 TODAY = date.today().isoformat()
 
 # App Store / Google Play 回應中，下架的特徵
-APP_STORE_GONE_HINTS = [
-    "this app is currently not available",
-    "isn\u2019t available in your country",
-    "we can\u2019t find the app",
-    "no longer available",
-]
-
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -35,16 +28,13 @@ def check_web(url: str) -> bool:
 def check_app(url: str) -> bool:
     """
     Check if an app store listing is still live.
-    Fetches the store page and looks for removal indicators.
+    A 404 status code means the app has been removed.
     """
     if not url:
         return True  # no checkUrl, skip
     try:
         r = requests.get(url, timeout=TIMEOUT, headers=HEADERS, allow_redirects=True)
-        if r.status_code >= 400:
-            return False
-        body = r.text.lower()
-        return not any(hint in body for hint in APP_STORE_GONE_HINTS)
+        return r.status_code < 400
     except Exception:
         return False
 
