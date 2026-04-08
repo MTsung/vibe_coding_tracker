@@ -158,7 +158,7 @@
     "source": "Threads",
     "sourceUrl": "https://www.threads.com/@tldreview_bot/post/DRV3_5dD7S2",
     "date": "2025-11-22",
-    "deadDate": "",
+    "deadDate": "2026-04-08",
     "tags": [
       "評論摘要",
       "Google地圖",
@@ -335,7 +335,12 @@
     "sourceUrl": "https://www.threads.com/@ceo.working/post/DWwRIvyCVmc",
     "date": "2026-04-06",
     "deadDate": "",
-    "tags": ["報價", "CRM", "自動化", "@ceo.working"]
+    "tags": [
+      "報價",
+      "CRM",
+      "自動化",
+      "@ceo.working"
+    ]
   },
   {
     "name": "TutorPage 教師品牌頁",
@@ -347,7 +352,13 @@
     "sourceUrl": "https://www.threads.com/@jenson.stackwork/post/DWd_bgbEWeV",
     "date": "2026-03-29",
     "deadDate": "",
-    "tags": ["教學", "品牌", "排課", "AI", "@jenson.stackwork"]
+    "tags": [
+      "教學",
+      "品牌",
+      "排課",
+      "AI",
+      "@jenson.stackwork"
+    ]
   },
   {
     "name": "麻雀精算師 計分器",
@@ -359,7 +370,13 @@
     "sourceUrl": "https://www.threads.com/@vibecodehk/post/DW0FT0NE0e3",
     "date": "2026-01-09",
     "deadDate": "",
-    "tags": ["麻雀", "計分", "香港", "iOS", "@vibecodehk"]
+    "tags": [
+      "麻雀",
+      "計分",
+      "香港",
+      "iOS",
+      "@vibecodehk"
+    ]
   },
   {
     "name": "Japan Cat 開車學日語",
@@ -371,7 +388,13 @@
     "sourceUrl": "https://www.threads.com/@pursuitli/post/DW0EgjjEksK",
     "date": "2026-04-07",
     "deadDate": "",
-    "tags": ["日語", "學習", "AI", "開車", "@pursuitli"]
+    "tags": [
+      "日語",
+      "學習",
+      "AI",
+      "開車",
+      "@pursuitli"
+    ]
   },
   {
     "name": "MiniGame HTML 小遊戲合集",
@@ -383,7 +406,12 @@
     "sourceUrl": "https://www.threads.com/@hank.huang0516/post/DW02Uv6kcl8",
     "date": "2026-04-08",
     "deadDate": "",
-    "tags": ["遊戲", "HTML", "離線", "@hank.huang0516"]
+    "tags": [
+      "遊戲",
+      "HTML",
+      "離線",
+      "@hank.huang0516"
+    ]
   },
   {
     "name": "Romi Table Dating",
@@ -395,7 +423,12 @@
     "sourceUrl": "https://www.threads.com/@romi_tabledating/post/DWxanBgCcph",
     "date": "2025-10-10",
     "deadDate": "",
-    "tags": ["交友", "約會", "iOS", "@romi_tabledating"]
+    "tags": [
+      "交友",
+      "約會",
+      "iOS",
+      "@romi_tabledating"
+    ]
   },
   {
     "name": "默書啦喂 AI 默書練習助手",
@@ -407,7 +440,14 @@
     "sourceUrl": "https://www.threads.com/@dictationlawai/post/DW08vBjkg4x",
     "date": "2026-04-08",
     "deadDate": "",
-    "tags": ["教育", "默書", "香港", "AI", "iOS", "@dictationlawai"]
+    "tags": [
+      "教育",
+      "默書",
+      "香港",
+      "AI",
+      "iOS",
+      "@dictationlawai"
+    ]
   },
   {
     "name": "ChironMotion Vision",
@@ -419,7 +459,13 @@
     "sourceUrl": "https://www.threads.com/@impfactor/post/DW0nZu5mY_C",
     "date": "2026-04-08",
     "deadDate": "",
-    "tags": ["運動", "生物力學", "動作捕捉", "iOS", "@impfactor"]
+    "tags": [
+      "運動",
+      "生物力學",
+      "動作捕捉",
+      "iOS",
+      "@impfactor"
+    ]
   },
   {
     "name": "CantoLyrics AI 粵語填詞",
@@ -431,7 +477,13 @@
     "sourceUrl": "https://www.threads.com/@canto_lyrics_ai/post/DW2YgP2EnT5",
     "date": "2026-01-06",
     "deadDate": "",
-    "tags": ["粵語", "填詞", "AI", "音樂", "@canto_lyrics_ai"]
+    "tags": [
+      "粵語",
+      "填詞",
+      "AI",
+      "音樂",
+      "@canto_lyrics_ai"
+    ]
   },
   {
     "name": "EliteRewards 自營商獎勵平台",
@@ -443,6 +495,11 @@
     "sourceUrl": "https://www.threads.com/@eli_rewards/post/DTLBorvjskL",
     "date": "2026-04-08",
     "deadDate": "",
-    "tags": ["交易", "自營商", "獎勵", "@eli_rewards"]
+    "tags": [
+      "交易",
+      "自營商",
+      "獎勵",
+      "@eli_rewards"
+    ]
   }
 ]
