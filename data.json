@@ -348,5 +348,101 @@
     "date": "2026-03-29",
     "deadDate": "",
     "tags": ["教學", "品牌", "排課", "AI", "@jenson.stackwork"]
+  },
+  {
+    "name": "麻雀精算師 計分器",
+    "type": "APP",
+    "description": "香港麻雀、跑馬仔、港式台牌計分 App，支援全銃半銃、獎馬、智能算番、找數功能自動計帳，一鍵分享到 WhatsApp",
+    "url": "https://apps.apple.com/tw/app/%E9%BA%BB%E9%9B%80%E7%B2%BE%E7%AE%97%E5%B8%AB-%E8%A8%88%E5%88%86%E5%99%A8/id6757151657",
+    "checkUrl": "https://apps.apple.com/tw/app/id6757151657",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@vibecodehk/post/DW0FT0NE0e3",
+    "date": "2026-01-09",
+    "deadDate": "",
+    "tags": ["麻雀", "計分", "香港", "iOS", "@vibecodehk"]
+  },
+  {
+    "name": "Japan Cat 開車學日語",
+    "type": "WEB",
+    "description": "邊開車邊學日語，全程免手操作，AI 即時糾正文法，限時免費",
+    "url": "https://japancat.co/",
+    "checkUrl": "https://japancat.co/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@pursuitli/post/DW0EgjjEksK",
+    "date": "2026-04-07",
+    "deadDate": "",
+    "tags": ["日語", "學習", "AI", "開車", "@pursuitli"]
+  },
+  {
+    "name": "MiniGame HTML 小遊戲合集",
+    "type": "WEB",
+    "description": "HTML 小遊戲合集，完全離線可玩，點擊立即開玩",
+    "url": "https://minigame.eclawbot.com/",
+    "checkUrl": "https://minigame.eclawbot.com/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@hank.huang0516/post/DW02Uv6kcl8",
+    "date": "2026-04-08",
+    "deadDate": "",
+    "tags": ["遊戲", "HTML", "離線", "@hank.huang0516"]
+  },
+  {
+    "name": "Romi Table Dating",
+    "type": "APP",
+    "description": "把交友回歸到真正見面的約會 App，配對後直接約餐廳聚餐，承諾機制降低爽約，聊天室僅在約會前 2 天開啟",
+    "url": "https://apps.apple.com/tw/app/romi-table-dating/id6755659055",
+    "checkUrl": "https://apps.apple.com/tw/app/id6755659055",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@romi_tabledating/post/DWxanBgCcph",
+    "date": "2025-10-10",
+    "deadDate": "",
+    "tags": ["交友", "約會", "iOS", "@romi_tabledating"]
+  },
+  {
+    "name": "默書啦喂 AI 默書練習助手",
+    "type": "APP",
+    "description": "香港小學生中文聽寫練習工具，AI 拍照識別課本文字建立默書清單，支援粵語普通話朗讀、筆順動畫、雲端同步",
+    "url": "https://apps.apple.com/hk/app/%E9%BB%98%E6%9B%B8%E5%95%A6%E5%96%82-ai-%E9%BB%98%E6%9B%B8%E7%B7%B4%E7%BF%92%E5%8A%A9%E6%89%8B/id6753712775",
+    "checkUrl": "https://apps.apple.com/hk/app/id6753712775",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@dictationlawai/post/DW08vBjkg4x",
+    "date": "2026-04-08",
+    "deadDate": "",
+    "tags": ["教育", "默書", "香港", "AI", "iOS", "@dictationlawai"]
+  },
+  {
+    "name": "ChironMotion Vision",
+    "type": "APP",
+    "description": "即時動作捕捉與生物力學分析 App，支援 CMJ/SJ/DJ 跳躍協議，計算跳躍高度、飛行時間、RSI 等指標，全裝置端運算",
+    "url": "https://apps.apple.com/us/app/chironmotion-vision/id6759504031",
+    "checkUrl": "https://apps.apple.com/us/app/id6759504031",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@impfactor/post/DW0nZu5mY_C",
+    "date": "2026-04-08",
+    "deadDate": "",
+    "tags": ["運動", "生物力學", "動作捕捉", "iOS", "@impfactor"]
+  },
+  {
+    "name": "CantoLyrics AI 粵語填詞",
+    "type": "WEB",
+    "description": "全球首個理解粵語 0243 聲調系統的 AI 填詞工具，自動校正聲調、Rap Flow 引擎、MIDI 旋律分析轉歌詞",
+    "url": "https://cantolyrics-ai.zeabur.app/",
+    "checkUrl": "https://cantolyrics-ai.zeabur.app/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@canto_lyrics_ai/post/DW2YgP2EnT5",
+    "date": "2026-01-06",
+    "deadDate": "",
+    "tags": ["粵語", "填詞", "AI", "音樂", "@canto_lyrics_ai"]
+  },
+  {
+    "name": "EliteRewards 自營商獎勵平台",
+    "type": "WEB",
+    "description": "透過購買自營商帳號賺取積分，兌換免費交易帳戶與會員福利，專為認真交易者打造",
+    "url": "https://elite-rewards.co/",
+    "checkUrl": "https://elite-rewards.co/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@eli_rewards/post/DTLBorvjskL",
+    "date": "2026-04-08",
+    "deadDate": "",
+    "tags": ["交易", "自營商", "獎勵", "@eli_rewards"]
   }
 ]
