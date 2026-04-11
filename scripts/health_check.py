@@ -19,7 +19,7 @@ HEADERS = {
 def check_web(url: str) -> bool:
     """Check if a website/API is reachable (2xx or 3xx)."""
     try:
-        r = requests.get(url, timeout=TIMEOUT, headers=HEADERS, allow_redirects=True)
+        r = requests.head(url, timeout=TIMEOUT, headers=HEADERS, allow_redirects=True)
         return r.status_code < 400
     except Exception:
         return False
@@ -67,7 +67,12 @@ def main():
             if proj_type == "APP":
                 alive = check_app(check_url)
             else:
-                alive = check_web(check_url)
+                # Fallback to GET if HEAD failed (some servers don't support HEAD)
+                try:
+                    r = requests.get(check_url, timeout=TIMEOUT, headers=HEADERS, allow_redirects=True)
+                    alive = r.status_code < 400
+                except Exception:
+                    alive = False
 
         if not alive and not is_dead:
             p["deadDate"] = TODAY
