@@ -158,7 +158,7 @@
     "source": "Threads",
     "sourceUrl": "https://www.threads.com/@tldreview_bot/post/DRV3_5dD7S2",
     "date": "2025-11-22",
-    "deadDate": "2026-04-08",
+    "deadDate": "",
     "tags": [
       "評論摘要",
       "Google地圖",
@@ -501,5 +501,53 @@
       "獎勵",
       "@eli_rewards"
     ]
+  },
+  {
+    "name": "LedgerFun 記帳趣",
+    "type": "WEB",
+    "description": "AI 掃描收據秒記帳、智慧預算管理、多幣別自動換算，支援 PDF/Excel/CSV 匯出，PWA 可離線使用",
+    "url": "https://ledgerfun.com/zh-TW",
+    "checkUrl": "https://ledgerfun.com",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@dustinchen768/post/DW-kcr4CTm7",
+    "date": "2026-04-11",
+    "deadDate": "",
+    "tags": ["記帳", "AI", "收據掃描", "PWA", "@dustinchen768"]
+  },
+  {
+    "name": "有名大站 UMing",
+    "type": "WEB",
+    "description": "個人相簿與攝影社群平台，支援旅行、人像、美食、寵物等分類，有熱門排行、貓皇排行、女神排行等榜單",
+    "url": "https://uming.cc/",
+    "checkUrl": "https://uming.cc/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@shiunxun/post/DW8rJTLjBgG",
+    "date": "2026-04-10",
+    "deadDate": "",
+    "tags": ["攝影", "相簿", "社群", "@shiunxun"]
+  },
+  {
+    "name": "師傅來囉",
+    "type": "WEB",
+    "description": "車主與車廠即時工單配對平台，依距離媒合，車廠搶單回覆，配對後才解鎖聯絡與精準位置保護隱私",
+    "url": "https://shifulaile.app/",
+    "checkUrl": "https://shifulaile.app/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@wen_xiang_brother/post/DUalKhsEbfB",
+    "date": "2026-02-06",
+    "deadDate": "",
+    "tags": ["車輛救援", "媒合", "@wen_xiang_brother"]
+  },
+  {
+    "name": "約約客邦 商家預約平台",
+    "type": "WEB",
+    "description": "商家預約營運平台，統一管理服務、排程、LINE 通知與顧客預約紀錄，不用再靠訊息手動確認",
+    "url": "https://appointment-system-8as0.onrender.com/",
+    "checkUrl": "https://appointment-system-8as0.onrender.com/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@wen_xiang_brother/post/DWz3EPFAcN-",
+    "date": "2026-04-07",
+    "deadDate": "",
+    "tags": ["預約", "商家", "LINE通知", "@wen_xiang_brother"]
   }
 ]
