@@ -1,10 +1,13 @@
 import json
+import socket
 import requests
 from datetime import date, datetime
+from urllib.parse import urlparse
 
 DATA_FILE = "data.json"
 TIMEOUT = 15
 TODAY = date.today().isoformat()
+FAIL_THRESHOLD = 3  # 連續幾天 HTTP + DNS 都失敗才標死
 
 # App Store / Google Play 回應中，下架的特徵
 HEADERS = {
@@ -36,6 +39,18 @@ def check_app(url: str) -> bool:
         r = requests.get(url, timeout=TIMEOUT, headers=HEADERS, allow_redirects=True)
         return r.status_code < 400
     except Exception:
+        return False
+
+
+def dns_alive(url: str) -> bool:
+    """Check if the domain still resolves via DNS."""
+    try:
+        host = urlparse(url).hostname
+        if not host:
+            return False
+        socket.getaddrinfo(host, None, socket.AF_UNSPEC, socket.SOCK_STREAM)
+        return True
+    except (socket.gaierror, Exception):
         return False
 
 
@@ -74,15 +89,31 @@ def main():
                 except Exception:
                     alive = False
 
+        # Last resort: if HTTP fails, check DNS
+        # (Cloudflare/bot protection may block HTTP but domain is still alive)
+        if not alive and dns_alive(check_url):
+            print(f"🛡️  {p['name']} - HTTP failed but DNS alive, treating as alive ({check_url})")
+            alive = True
+
         if not alive and not is_dead:
-            p["deadDate"] = TODAY
-            print(f"💀 {p['name']} - marked dead ({check_url})")
+            fail_count = p.get("failCount", 0) + 1
+            p["failCount"] = fail_count
+            if fail_count >= FAIL_THRESHOLD:
+                p["deadDate"] = TODAY
+                p["failCount"] = 0
+                print(f"💀 {p['name']} - marked dead after {FAIL_THRESHOLD} consecutive failures ({check_url})")
+            else:
+                print(f"⚠️  {p['name']} - fail {fail_count}/{FAIL_THRESHOLD} ({check_url})")
             changed = True
         elif alive and is_dead:
             print(f"🔮 {p['name']} - 復活了！清除 deadDate")
             p["deadDate"] = ""
+            p["failCount"] = 0
             changed = True
         elif alive:
+            if p.get("failCount", 0) > 0:
+                p["failCount"] = 0
+                changed = True
             print(f"✅ {p['name']} - alive")
         else:
             print(f"⚰️  {p['name']} - still dead")
