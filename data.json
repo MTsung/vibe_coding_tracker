@@ -158,7 +158,7 @@
     "source": "Threads",
     "sourceUrl": "https://www.threads.com/@tldreview_bot/post/DRV3_5dD7S2",
     "date": "2025-11-22",
-    "deadDate": "",
+    "deadDate": "2026-04-12",
     "tags": [
       "評論摘要",
       "Google地圖",
@@ -512,7 +512,13 @@
     "sourceUrl": "https://www.threads.com/@dustinchen768/post/DW-kcr4CTm7",
     "date": "2026-04-11",
     "deadDate": "",
-    "tags": ["記帳", "AI", "收據掃描", "PWA", "@dustinchen768"]
+    "tags": [
+      "記帳",
+      "AI",
+      "收據掃描",
+      "PWA",
+      "@dustinchen768"
+    ]
   },
   {
     "name": "有名大站 UMing",
@@ -524,7 +530,12 @@
     "sourceUrl": "https://www.threads.com/@shiunxun/post/DW8rJTLjBgG",
     "date": "2026-04-10",
     "deadDate": "",
-    "tags": ["攝影", "相簿", "社群", "@shiunxun"]
+    "tags": [
+      "攝影",
+      "相簿",
+      "社群",
+      "@shiunxun"
+    ]
   },
   {
     "name": "師傅來囉",
@@ -536,7 +547,11 @@
     "sourceUrl": "https://www.threads.com/@wen_xiang_brother/post/DUalKhsEbfB",
     "date": "2026-02-06",
     "deadDate": "",
-    "tags": ["車輛救援", "媒合", "@wen_xiang_brother"]
+    "tags": [
+      "車輛救援",
+      "媒合",
+      "@wen_xiang_brother"
+    ]
   },
   {
     "name": "約約客邦 商家預約平台",
@@ -548,6 +563,11 @@
     "sourceUrl": "https://www.threads.com/@wen_xiang_brother/post/DWz3EPFAcN-",
     "date": "2026-04-07",
     "deadDate": "",
-    "tags": ["預約", "商家", "LINE通知", "@wen_xiang_brother"]
+    "tags": [
+      "預約",
+      "商家",
+      "LINE通知",
+      "@wen_xiang_brother"
+    ]
   }
 ]
