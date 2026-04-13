@@ -570,5 +570,65 @@
       "LINE通知",
       "@wen_xiang_brother"
     ]
+  },
+  {
+    "name": "Sweethearts 家事審核",
+    "type": "WEB",
+    "description": "情侶/家庭家事任務申報平台，一方申報完成的家事，另一方准奏或駁回，趣味化家務分工",
+    "url": "https://sweethearts.me/",
+    "checkUrl": "https://sweethearts.me/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@otiszan/post/DXDsqDSkk7r",
+    "date": "2026-04-13",
+    "deadDate": "",
+    "tags": ["家事", "情侶", "趣味", "@otiszan"]
+  },
+  {
+    "name": "Raccoodar 網站安全掃描器",
+    "type": "WEB",
+    "description": "被動式網站安全掃描器，找出外洩的 API 金鑰、配置錯誤的資料庫及敏感檔案洩露，幾秒內取得結果",
+    "url": "https://raccoodar.com/",
+    "checkUrl": "https://raccoodar.com/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@raccoodar/post/DXB-_XtGI3c",
+    "date": "2026-04-12",
+    "deadDate": "",
+    "tags": ["資安", "掃描", "API", "@raccoodar"]
+  },
+  {
+    "name": "Heloword 單字記憶",
+    "type": "WEB",
+    "description": "利用遺忘曲線背單字工具，支援英文與日文，AI 生成單字故事、共享字庫、測驗與挑戰模式",
+    "url": "https://heloword.com/k8s/ng-frontend/v1/home",
+    "checkUrl": "https://heloword.com/k8s/ng-frontend/v1/home",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@ryan78qq/post/DXCYal8iYOn",
+    "date": "2026-04-12",
+    "deadDate": "",
+    "tags": ["英文", "日文", "單字", "學習", "@ryan78qq"]
+  },
+  {
+    "name": "股島數據 TWStockIsland",
+    "type": "WEB",
+    "description": "台灣股市數據分析平台，提供概念股追蹤、型態掃描、法人動向等功能",
+    "url": "https://www.twstockisland.com/",
+    "checkUrl": "https://www.twstockisland.com/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@twstockisland/post/DWt8PtxE8bS",
+    "date": "2026-04-05",
+    "deadDate": "",
+    "tags": ["股票", "台股", "數據分析", "@twstockisland"]
+  },
+  {
+    "name": "手相夏多",
+    "type": "WEB",
+    "description": "十三年手相師的個人品牌網站，提供手相文章、案例分析、每週測驗、AI 智能手相分析與預約諮詢服務",
+    "url": "https://palmist.com.tw/",
+    "checkUrl": "https://palmist.com.tw/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@ar851060/post/DXA_0FSk6M7",
+    "date": "2026-04-12",
+    "deadDate": "",
+    "tags": ["手相", "命理", "AI", "@ar851060"]
   }
 ]
