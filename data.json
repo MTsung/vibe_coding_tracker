@@ -158,14 +158,15 @@
     "source": "Threads",
     "sourceUrl": "https://www.threads.com/@tldreview_bot/post/DRV3_5dD7S2",
     "date": "2025-11-22",
-    "deadDate": "2026-04-12",
+    "deadDate": "",
     "tags": [
       "評論摘要",
       "Google地圖",
       "AI",
       "旅遊",
       "@tldreview_bot"
-    ]
+    ],
+    "failCount": 0
   },
   {
     "name": "Last Straw 離職念頭紀錄器",
