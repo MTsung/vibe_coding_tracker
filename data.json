@@ -630,5 +630,65 @@
     "date": "2026-04-12",
     "deadDate": "",
     "tags": ["手相", "命理", "AI", "@ar851060"]
+  },
+  {
+    "name": "嘟嘟厚 PDF 壓縮",
+    "type": "WEB",
+    "description": "精準 PDF 壓縮工具，輸入目標大小自動壓縮，100% 瀏覽器內運算檔案不上傳，跨平台免安裝完全免費",
+    "url": "https://dudupdf-b2dqh75j.manus.space/",
+    "checkUrl": "https://dudupdf-b2dqh75j.manus.space/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@curiosity_academy_tw/post/DXE2pdAkz-f",
+    "date": "2026-04-14",
+    "deadDate": "",
+    "tags": ["PDF", "壓縮", "隱私", "工具", "@curiosity_academy_tw"]
+  },
+  {
+    "name": "幼兒園安心查",
+    "type": "APP",
+    "description": "全台 6,900+ 間幼兒園查詢工具，地圖定位附近園所，完整裁罰紀錄、公私立篩選、評鑑資訊，資料每日自動更新",
+    "url": "https://apps.apple.com/tw/app/%E5%B9%BC%E5%85%92%E5%9C%92%E5%AE%89%E5%BF%83%E6%9F%A5/id6761747167",
+    "checkUrl": "https://apps.apple.com/tw/app/id6761747167",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@devin20260227/post/DXEoTF3AtP7",
+    "date": "2026-04-14",
+    "deadDate": "",
+    "tags": ["幼兒園", "育兒", "地圖", "iOS", "@devin20260227"]
+  },
+  {
+    "name": "PetiQo 寵物健康管理",
+    "type": "APP",
+    "description": "智能寵物健康管理 App，一鍵記錄飲水排泄體重、疫苗用藥提醒、多人同步照顧、AI 健康總結與就醫報告",
+    "url": "https://apps.apple.com/tw/app/petiqo/id6756248505",
+    "checkUrl": "https://apps.apple.com/tw/app/id6756248505",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@petiqo.app_/post/DXDZR8RkzSx",
+    "date": "2026-03-11",
+    "deadDate": "",
+    "tags": ["寵物", "健康管理", "AI", "iOS", "@petiqo.app_"]
+  },
+  {
+    "name": "PixPet 番茄鐘寵物養成",
+    "type": "APP",
+    "description": "專注養成遊戲，番茄鐘計時搭配像素寵物收集，步數兌換資源、地圖探索、寵物對戰與排行榜",
+    "url": "https://apps.apple.com/tw/app/pixpet-%E7%95%AA%E8%8C%84%E9%90%98%E5%B0%88%E6%B3%A8%E8%88%87%E5%83%8F%E7%B4%A0%E5%AF%B5%E7%89%A9%E9%A4%8A%E6%88%90/id6749447581",
+    "checkUrl": "https://apps.apple.com/tw/app/id6749447581",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@simonyu1011/post/DXE8Ig5E_T9",
+    "date": "2026-03-16",
+    "deadDate": "",
+    "tags": ["番茄鐘", "專注", "像素", "養成", "iOS", "@simonyu1011"]
+  },
+  {
+    "name": "LifeHere 我的生活圈",
+    "type": "APP",
+    "description": "在地生活地圖社交 App，探索附近隱藏美食、二手好物、服務，直接聯繫零手續費，位置驗證確保真實",
+    "url": "https://apps.apple.com/tw/app/lifehere/id6757518136",
+    "checkUrl": "https://apps.apple.com/tw/app/id6757518136",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@lifehere_mylife/post/DW-RHasCZHb",
+    "date": "2026-01-23",
+    "deadDate": "",
+    "tags": ["在地", "地圖", "社交", "二手", "iOS", "@lifehere_mylife"]
   }
 ]
