@@ -750,5 +750,17 @@
     "date": "2026-04-15",
     "deadDate": "",
     "tags": ["記帳", "預算", "iOS", "@money.memo.app"]
+  },
+  {
+    "name": "DineFlow QR 點餐系統",
+    "type": "WEB",
+    "description": "不綁 POS 的輕量餐飲營運系統，30-60 分鐘快速上線，QR 點餐、即時接單、電子發票，適合小店餐車快閃店",
+    "url": "https://dineflow.shop/",
+    "checkUrl": "https://dineflow.shop/",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@dineflow.order/post/DXUN12bk5Ni",
+    "date": "2026-04-20",
+    "deadDate": "",
+    "tags": ["餐飲", "點餐", "QR", "POS", "@dineflow.order"]
   }
 ]
