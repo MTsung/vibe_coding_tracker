@@ -762,5 +762,17 @@
     "date": "2026-04-20",
     "deadDate": "",
     "tags": ["餐飲", "點餐", "QR", "POS", "@dineflow.order"]
+  },
+  {
+    "name": "惜食獵人 即期品地圖",
+    "type": "APP",
+    "description": "即期品地圖 App，幫助使用者找到附近的即期食品與惜食商品，減少食物浪費",
+    "url": "https://apps.apple.com/tw/app/%E6%83%9C%E9%A3%9F%E7%8D%B5%E4%BA%BA-%E5%8D%B3%E6%9C%9F%E5%93%81%E5%9C%B0%E5%9C%96/id6760516147",
+    "checkUrl": "https://apps.apple.com/tw/app/id6760516147",
+    "source": "Threads",
+    "sourceUrl": "https://www.threads.com/@zohanlin/post/DV-v1hylBoF",
+    "date": "2026-03-17",
+    "deadDate": "",
+    "tags": ["惜食", "即期品", "地圖", "環保", "iOS", "@zohanlin"]
   }
 ]
