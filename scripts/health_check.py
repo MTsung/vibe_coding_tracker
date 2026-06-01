@@ -91,7 +91,11 @@ def main():
 
         # Last resort: if HTTP fails, check DNS
         # (Cloudflare/bot protection may block HTTP but domain is still alive)
-        if not alive and dns_alive(check_url):
+        # BUT: for app stores (apps.apple.com, play.google.com), HTTP fail = dead
+        parsed_url = urlparse(check_url)
+        is_app_store = parsed_url.hostname in ("apps.apple.com", "play.google.com")
+        
+        if not alive and not is_app_store and dns_alive(check_url):
             print(f"🛡️  {p['name']} - HTTP failed but DNS alive, treating as alive ({check_url})")
             alive = True
 
