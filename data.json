@@ -752,7 +752,8 @@
       "二手",
       "iOS",
       "@lifehere_mylife"
-    ]
+    ],
+    "failCount": 1
   },
   {
     "name": "LaborPro 勞基法計算機",
@@ -805,7 +806,8 @@
       "電競",
       "iOS",
       "@69game_stores_recovery"
-    ]
+    ],
+    "failCount": 1
   },
   {
     "name": "呼卡 Huca 寶可夢卡牌比價",
@@ -840,7 +842,8 @@
       "預算",
       "iOS",
       "@money.memo.app"
-    ]
+    ],
+    "failCount": 1
   },
   {
     "name": "DineFlow QR 點餐系統",
