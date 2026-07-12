@@ -843,7 +843,7 @@
       "iOS",
       "@money.memo.app"
     ],
-    "failCount": 0
+    "failCount": 1
   },
   {
     "name": "DineFlow QR 點餐系統",
