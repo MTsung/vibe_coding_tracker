@@ -696,7 +696,8 @@
       "地圖",
       "iOS",
       "@devin20260227"
-    ]
+    ],
+    "failCount": 1
   },
   {
     "name": "PetiQo 寵物健康管理",
@@ -714,7 +715,8 @@
       "AI",
       "iOS",
       "@petiqo.app_"
-    ]
+    ],
+    "failCount": 1
   },
   {
     "name": "PixPet 番茄鐘寵物養成",
