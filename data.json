@@ -865,7 +865,8 @@
       "QR",
       "POS",
       "@dineflow.order"
-    ]
+    ],
+    "failCount": 1
   },
   {
     "name": "惜食獵人 即期品地圖",
