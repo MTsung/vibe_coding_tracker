@@ -1,5 +1,6 @@
 import json
 import socket
+import time
 import requests
 from datetime import date, datetime
 from urllib.parse import urlparse
@@ -19,27 +20,30 @@ HEADERS = {
 }
 
 
-def check_web(url: str) -> bool:
-    """Check if a website/API is reachable (2xx or 3xx)."""
-    try:
-        r = requests.head(url, timeout=TIMEOUT, headers=HEADERS, allow_redirects=True)
-        return r.status_code < 400
-    except Exception:
-        return False
-
-
-def check_app(url: str) -> bool:
+def probe(url: str, method: str = "head") -> tuple[bool, bool]:
     """
-    Check if an app store listing is still live.
-    A 404 status code means the app has been removed.
+    Probe a URL and report both liveness and reachability.
+
+    Returns (alive, reachable):
+      alive     - 伺服器回應了 2xx / 3xx
+      reachable - 伺服器有回應（TCP + TLS + HTTP 都通，狀態碼不論）
+
+    區分這兩者很重要：reachable=False 代表連線層就失敗（DNS 掛掉、
+    connection refused、timeout），也就是服務真的不在了；
+    reachable=True 但 alive=False 則可能只是被 bot 保護擋下（403/503）。
     """
     if not url:
-        return True  # no checkUrl, skip
+        return True, True  # no checkUrl, skip
     try:
-        r = requests.get(url, timeout=TIMEOUT, headers=HEADERS, allow_redirects=True)
-        return r.status_code < 400
+        fn = requests.head if method == "head" else requests.get
+        r = fn(url, timeout=TIMEOUT, headers=HEADERS, allow_redirects=True)
+        return r.status_code < 400, True
+    except (requests.exceptions.ConnectionError, requests.exceptions.Timeout):
+        # 連不上：DNS 失敗、拒絕連線、TLS 失敗、逾時
+        return False, False
     except Exception:
-        return False
+        # 其他協定層問題（重導向過多等）：伺服器有回應，只是這次拿不到結果
+        return False, True
 
 
 def dns_alive(url: str) -> bool:
@@ -68,36 +72,27 @@ def main():
             # LINE BOT hard to auto-check, skip
             continue
 
-        if proj_type == "APP":
-            check_url = p.get("checkUrl") or p.get("url", "")
-            alive = check_app(check_url)
-        else:
-            check_url = p.get("checkUrl") or p.get("url", "")
-            alive = check_web(check_url)
+        check_url = p.get("checkUrl") or p.get("url", "")
+        alive, reachable = probe(check_url, "get" if proj_type == "APP" else "head")
 
         if not alive:
-            # Double check: retry once to avoid false positives
-            import time
+            # Double check: retry once with GET to avoid false positives
+            # (some servers don't support HEAD)
             time.sleep(5)
-            if proj_type == "APP":
-                alive = check_app(check_url)
-            else:
-                # Fallback to GET if HEAD failed (some servers don't support HEAD)
-                try:
-                    r = requests.get(check_url, timeout=TIMEOUT, headers=HEADERS, allow_redirects=True)
-                    alive = r.status_code < 400
-                except Exception:
-                    alive = False
+            alive, reachable = probe(check_url, "get")
 
-        # Last resort: if HTTP fails, check DNS
-        # (Cloudflare/bot protection may block HTTP but domain is still alive)
-        # BUT: for app stores (apps.apple.com, play.google.com), HTTP fail = dead
         parsed_url = urlparse(check_url)
         is_app_store = parsed_url.hostname in ("apps.apple.com", "play.google.com")
-        
-        if not alive and not is_app_store and dns_alive(check_url):
-            print(f"🛡️  {p['name']} - HTTP failed but DNS alive, treating as alive ({check_url})")
+
+        # 伺服器有回應但狀態碼是錯誤：常見於 Cloudflare / WAF 擋 bot（403、429、503），
+        # 這種情況視為還活著。但 app store 的錯誤狀態就是真的下架了。
+        if not alive and reachable and not is_app_store:
+            print(f"🛡️  {p['name']} - server responded with an error status, likely bot protection, treating as alive ({check_url})")
             alive = True
+
+        # 連線層就失敗：服務真的不在了。DNS 只用來說明是哪一種死法。
+        if not alive and not reachable and dns_alive(check_url):
+            print(f"� {p['name']} - domain still resolves but nothing is listening ({check_url})")
 
         if not alive and not is_dead:
             fail_count = p.get("failCount", 0) + 1
