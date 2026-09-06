@@ -96,7 +96,8 @@
       "AI",
       "AR",
       "@chengwei0911"
-    ]
+    ],
+    "failCount": 1
   },
   {
     "name": "摩丘放鬆 MuChills",
@@ -575,7 +576,8 @@
       "商家",
       "LINE通知",
       "@wen_xiang_brother"
-    ]
+    ],
+    "failCount": 1
   },
   {
     "name": "Sweethearts 家事審核",
@@ -866,7 +868,7 @@
       "POS",
       "@dineflow.order"
     ],
-    "failCount": 1
+    "failCount": 2
   },
   {
     "name": "惜食獵人 即期品地圖",
