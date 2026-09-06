@@ -97,7 +97,7 @@
       "AR",
       "@chengwei0911"
     ],
-    "failCount": 1
+    "failCount": 2
   },
   {
     "name": "摩丘放鬆 MuChills",
@@ -577,7 +577,7 @@
       "LINE通知",
       "@wen_xiang_brother"
     ],
-    "failCount": 1
+    "failCount": 2
   },
   {
     "name": "Sweethearts 家事審核",
@@ -860,7 +860,7 @@
     "source": "Threads",
     "sourceUrl": "https://www.threads.com/@dineflow.order/post/DXUN12bk5Ni",
     "date": "2026-04-20",
-    "deadDate": "",
+    "deadDate": "2026-09-06",
     "tags": [
       "餐飲",
       "點餐",
@@ -868,7 +868,7 @@
       "POS",
       "@dineflow.order"
     ],
-    "failCount": 2
+    "failCount": 0
   },
   {
     "name": "惜食獵人 即期品地圖",
