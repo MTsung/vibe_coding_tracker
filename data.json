@@ -508,7 +508,8 @@
       "自營商",
       "獎勵",
       "@eli_rewards"
-    ]
+    ],
+    "failCount": 1
   },
   {
     "name": "LedgerFun 記帳趣",
