@@ -29,7 +29,8 @@
       "金流",
       "綠界",
       "@haru3613"
-    ]
+    ],
+    "failCount": 1
   },
   {
     "name": "美業工作管理 App",
@@ -491,7 +492,8 @@
       "AI",
       "音樂",
       "@canto_lyrics_ai"
-    ]
+    ],
+    "failCount": 1
   },
   {
     "name": "EliteRewards 自營商獎勵平台",
